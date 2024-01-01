@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/iKart/static/css/main.1aa1b982.css",
+    "main.js": "/iKart/static/js/main.3d7674b1.js",
+    "index.html": "/iKart/index.html",
+    "main.1aa1b982.css.map": "/iKart/static/css/main.1aa1b982.css.map",
+    "main.3d7674b1.js.map": "/iKart/static/js/main.3d7674b1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1aa1b982.css",
+    "static/js/main.3d7674b1.js"
+  ]
+}
