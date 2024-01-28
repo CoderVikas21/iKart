@@ -4,9 +4,13 @@ import Cart from './pages/Cart'
 import Navbar from './components/Navbar';
 import { Routes,Route } from 'react-router-dom';
 
+
 function App() {
+
+  
   return (
     <>
+
     <div className="main-container">
       <Navbar/>
       <Routes>

@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import { MdDelete } from "react-icons/md";
 import { useDispatch } from 'react-redux';
 import {decrement, remove, subAmount} from '../redux/slices/cartslice'
+import { ToastContainer, toast } from 'react-toastify';
 
 
 const CartItem = ({item}) => {
@@ -9,6 +10,7 @@ const CartItem = ({item}) => {
   const dispatch = useDispatch();
 
   function deleteitem(){
+      toast.error("Item Removed")
       dispatch(decrement());
       dispatch(remove(item.id));
       dispatch(subAmount(item.price));

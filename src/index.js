@@ -14,7 +14,9 @@ root.render(
     <Provider store={store}>
     <BrowserRouter>
        <App />
-       <ToastContainer/>
+       <ToastContainer
+       position="top-center"
+       />
     </BrowserRouter>
     </Provider>
   </>
